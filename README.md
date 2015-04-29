@@ -6,7 +6,7 @@ a test application for sample HBS grupos app
 to solve one thing: a calendar and contact list for group work with HBS in La Romana
 
 ### to get adoption:
-- on the groups partners need to use it to track group visits
+- on the ground partners need to use it to track group visits
 - then groups need to enter/update their information
 
 1. components
