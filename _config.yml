@@ -21,7 +21,7 @@ metaKeywords: "event"
 # Navigation
 navigationLinks:
  - {permalink: "/", text: "Home"}
- - {permalink: "/features/", text: "Features"}
+ - {permalink: "/jury/", text: "Жюри"}
  - {permalink: "/oteam/", text: "Teamnew"}
  - {permalink: "/team/", text: "Team"}
  - {permalink: "/communities/", text: "Communities"}
