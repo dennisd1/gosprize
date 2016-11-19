@@ -13,6 +13,12 @@ exclude: ['/automation/', 'README.md', 'LICENSE.txt', 'CNAME']
 # Head
 metaKeywords: "event"
 
+# Collections
+collections:
+  experts:
+    output: true
+    permalink: /experts/:path/
+
 
 # Documents
 
