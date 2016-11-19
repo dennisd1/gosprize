@@ -1,0 +1,29 @@
+---
+layout: default
+title: leaders
+description: Лидеры и победители
+header: leaders
+header_subtext: Лидеры и победители
+permalink: /leaders/
+published: true
+---
+
+<section>
+	<div class="container">
+		<div class="gallery">
+			{% for leader in site.leaders %}
+				<div class="gallery-item">
+					<div>
+						<a href="{{ leader.link }}" target="_blank">
+							<img src="{{ leader.image_path}}" alt="{{ leader.name }}" class="screenshot" srcset="{{ leader.image_path }} 620w, {{ leader.image_path | replace: ".png", "@2x.png" | replace: ".jpeg", "@2x.jpeg" }} 1240w">
+                     </div>
+                          <h3><a href="{{ leader.link }}" target="_blank">{{ leader.name }}</a></h3>
+					<p class="location"><i class="material-icons">place</i><a target="_blank" href="{{ leader.link }}">{{ leader.location }}</a></p>
+					<div>
+						</a>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</section>
