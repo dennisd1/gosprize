@@ -15,9 +15,9 @@ metaKeywords: "event"
 
 # Collections
 collections:
-  experts:
+  leaders:
     output: true
-    permalink: /experts/:path/
+    permalink: /leaders/:path/
 
 
 # Documents
